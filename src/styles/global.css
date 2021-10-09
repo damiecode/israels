@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html {
+  text-align: center;
+  color: #fff;
+  overflow: auto;
+  background-color: #0e141e;
+  font-family: Poppins;
+}
+
+.text-on-image {
+  position: absolute;
+  top: 50%;
+  left: 37%;
+  transform: translate(-50%, -50%);
+}
