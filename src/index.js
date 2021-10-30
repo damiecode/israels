@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import './styles/global.css';
 import reportWebVitals from './reportWebVitals';
+import './assets/fonts/Aclonica-Regular.ttf';
 
 ReactDOM.render(
   <React.StrictMode>
