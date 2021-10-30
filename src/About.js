@@ -18,7 +18,7 @@ const About = () => {
             As you may have guessed my name is Israel, I'm a freelance motion and graphics designer.
             I craft digital storytelling and visual experience that makes the product and brand work.
           </h2>
-        <div className="flex justify-between ml-10 md:ml-0 md:grid md:grid-cols-2 md:gap-4 mt-20 md:items-center justify-items-center w-3/4">
+        <div className="flex justify-between ml-10 md:-ml-8 md:grid md:grid-cols-2 md:gap-4 mt-16 md:items-center justify-items-center w-3/4 md:w-full">
           <div className="flex items-center space-x-5">
             <div>
               <DownloadOutlined style={{fontSize: "25px"}} />
@@ -27,15 +27,15 @@ const About = () => {
           </div>
           <div className="flex items-center space-x-5">
             <div><TwitterOutlined style={{fontSize: "25px"}} /></div>
-            <h5 className="w-2/3 text-left hidden md:block">As you may have guessed my name is Israel, I'm a freelance motion and graphics designer.</h5>
+            <h5 className="w-full text-left hidden md:block mt-9">As you may have guessed my name is Israel, I'm a freelance motion and graphics designer.</h5>
           </div>
           <div className="flex items-center space-x-5 opacity-100">
-            <MailOutlined style={{fontSize: "25px"}} />
+            <div><MailOutlined style={{fontSize: "25px"}} /></div>
             <h5 className="hidden md:block">Send me a mail</h5>
           </div>
           <div className="flex items-center space-x-5">
-            <LinkedinOutlined style={{fontSize: "25px"}} />
-            <h5 className="w-2/3 text-left hidden md:block">I craft digital storytelling and visual experience that makes the product and brand work.</h5>
+            <div><LinkedinOutlined style={{fontSize: "25px"}} /></div>
+            <h5 className="w-full text-left hidden md:block -mt-4">I craft digital storytelling and visual experience that makes the product and brand work.</h5>
           </div>
         </div>
     </div>

@@ -9,7 +9,7 @@ const Nav = () => {
   const closeMobileMenu = () => setClick(false);
   return (
     <>
-      <div className="block m-7 text-lg lg:text-2xl">
+      <div className="block m-7 text-sm lg:text-lg">
         <ul className={click ? "nav-options active" : "nav-options flex justify-between"}>
           <li className="list-none uppercase font-bold tracking-widest options" onClick={closeMobileMenu}>
             <Link to="/">Israel</Link>
